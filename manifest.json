@@ -1,0 +1,20 @@
+{
+    "name": "Rank in Mathematics",
+    "short_name": "Rank in Mathematics",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#317EFB",
+    "icons": [
+        {
+            "src": "image/bg.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "image/bg.png", 
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

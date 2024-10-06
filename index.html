@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berpangkat || Ghost Code Night</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="image/bg.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body class="bg-gray-100">
+
+<div class="flex min-h-full flex-col justify-center px-6 py-10 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+     <img class="mx-auto h-20 w-auto" src="image/rank.svg" alt="rank">
+     <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Rank in Mathematics</h2>
+    </div>
+
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div class="space-y-6">
+            
+            <div>
+                <div class="flex items-center justify-between">
+                    <label class="block text-sm font-medium leading-6 text-gray-900" for="pangkat">Angka Pangkat</label>
+                </div>
+                <div class="mt-2">
+                    <input type="number" id="pangkat" class="px-1 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required type="text">
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between">
+                    <label class="block text-sm font-medium leading-6 text-gray-900" for="dasar">Angka Dasar</label>
+                </div>
+                <div class="mt-2">
+                    <input type="number" id="dasar" class="px-1 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required type="text">
+                </div>
+            </div>
+
+            <div>
+             <button onclick="RankMat()" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Count</button>
+            </div>
+        </div>
+        <p class="mt-5 mb-5 text-center text-sm text-gray-500">&copy; Arr || Ghost Code Night All Rights Reserved, Code Must Not Be Copied, or Plagiarized</p>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="bg-white p-5 rounded-sm font-bold text-center break-all">
+         <p id="dasar-result">0<sup class="pangkat-result">0</sup></p>
+         <p id="result">0</p>
+        </div>
+    </div>
+</div> 
+
+<script src="js/script.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
